@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.register{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.register h3{
+    margin: 5px;
+}
+.register h4{
+    margin: 5px;
+}
+.register p {
+    margin: 5px;
+}
+.register form {
+    margin: 5px;
+}
+.register .form .enviar{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.title {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+#store {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+.product {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.product .price {
+    font-weight: bold;
+    margin: 5px;
+}
+.product .add {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.product .add:hover{
+    background-color: green;
+}
+#store {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.title2{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+.cartItem{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.cartItem .delete{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.cartItem .delete:hover{
+    background-color: red;
+}
+#cart{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: row;
+}
+.botones{
+    background-color: lightgoldenrodyellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.botones .vaciar{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.botones .vaciar:hover{
+    background-color: red;  
+}
+.botones .comprar{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.botones .comprar:hover{
+    background-color: green;
+}
