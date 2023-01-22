@@ -27,7 +27,7 @@ let carrito = JSON.parse(localStorage.getItem("cart")) || []
 
 //Con la funcion mostrarCatalogo traigo utilizando fetch los datos almacenados en mi data.json y los pinto en el HTML en forma de tarjetas.
 const mostrarCatalogo = async()=>{
-    const resp = await fetch("/data.json")
+    const resp = await fetch("./data.json")
     const data = await resp.json()
     data.forEach((producto)=>{
         const card = document.createElement("div")

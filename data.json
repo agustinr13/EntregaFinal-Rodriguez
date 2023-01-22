@@ -1,14 +1,73 @@
-[
-    {"nombre": "Producto 1", "descripcion": "Información del producto","precio": 1000 ,"id": 1},
-    {"nombre": "Producto 2", "descripcion": "Información del producto","precio": 2000 ,"id": 2},
-    {"nombre": "Producto 3", "descripcion": "Información del producto","precio": 3000 ,"id": 3},
-    {"nombre": "Producto 4", "descripcion": "Información del producto","precio": 4000 ,"id": 4},
-    {"nombre": "Producto 5", "descripcion": "Información del producto","precio": 5000 ,"id": 5},
-    {"nombre": "Producto 6", "descripcion": "Información del producto","precio": 6000 ,"id": 6},
-    {"nombre": "Producto 7", "descripcion": "Información del producto","precio": 7000 ,"id": 7},
-    {"nombre": "Producto 8", "descripcion": "Información del producto","precio": 8000 ,"id": 8},
-    {"nombre": "Producto 9", "descripcion": "Información del producto","precio": 9000 ,"id": 9},
-    {"nombre": "Producto 10", "descripcion": "Información del producto","precio": 10000 ,"id": 10},
-    {"nombre": "Producto 11", "descripcion": "Información del producto","precio": 11000 ,"id": 11},
-    {"nombre": "Producto 12", "descripcion": "Información del producto","precio": 12000 ,"id": 12}
+[{
+    "nombre": "Producto 1",
+    "descripcion": "Información del producto",
+    "precio": 1000,
+    "id": 1
+},
+{
+    "nombre": "Producto 2",
+    "descripcion": "Información del producto",
+    "precio": 2000,
+    "id": 2
+},
+{
+    "nombre": "Producto 3",
+    "descripcion": "Información del producto",
+    "precio": 3000,
+    "id": 3
+},
+{
+    "nombre": "Producto 4",
+    "descripcion": "Información del producto",
+    "precio": 4000,
+    "id": 4
+},
+{
+    "nombre": "Producto 5",
+    "descripcion": "Información del producto",
+    "precio": 5000,
+    "id": 5
+},
+{
+    "nombre": "Producto 6",
+    "descripcion": "Información del producto",
+    "precio": 6000,
+    "id": 6
+},
+{
+    "nombre": "Producto 7",
+    "descripcion": "Información del producto",
+    "precio": 7000,
+    "id": 7
+},
+{
+    "nombre": "Producto 8",
+    "descripcion": "Información del producto",
+    "precio": 8000,
+    "id": 8
+},
+{
+    "nombre": "Producto 9",
+    "descripcion": "Información del producto",
+    "precio": 9000,
+    "id": 9
+},
+{
+    "nombre": "Producto 10",
+    "descripcion": "Información del producto",
+    "precio": 10000,
+    "id": 10
+},
+{
+    "nombre": "Producto 11",
+    "descripcion": "Información del producto",
+    "precio": 11000,
+    "id": 11
+},
+{
+    "nombre": "Producto 12",
+    "descripcion": "Información del producto",
+    "precio": 12000,
+    "id": 12
+}
 ]
