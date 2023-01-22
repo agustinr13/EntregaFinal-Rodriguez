@@ -18,12 +18,6 @@ function enviarDatos() {
     })
 
 }
-/* const limpiarFormulario = ()=>{
-    const formField = document.querySelectorAll("form input, form textarea")
-    for (let i=0; i<formField.length; i++){
-        formField[i].value = formField[i].value.trim()
-    }
-} */
 
 //SECCIÓN DE COMPRA
 
