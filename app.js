@@ -5,6 +5,7 @@ let newsletter = document.querySelector("#newsletter")
 const bienvenida = newsletter.addEventListener("submit",(e)=>{
     e.preventDefault()
     enviarDatos()
+    newsletter.reset()
 })
 //La funcion enviarDatos capta los input y devuelve una alerta utilizando Swal
 function enviarDatos() {
@@ -15,7 +16,14 @@ function enviarDatos() {
         text: "Recibirás semanalmente en tu correo " + email + " un folleto con nuestras mejores promociones",
         icon: "success",
     })
+
 }
+/* const limpiarFormulario = ()=>{
+    const formField = document.querySelectorAll("form input, form textarea")
+    for (let i=0; i<formField.length; i++){
+        formField[i].value = formField[i].value.trim()
+    }
+} */
 
 //SECCIÓN DE COMPRA
 
